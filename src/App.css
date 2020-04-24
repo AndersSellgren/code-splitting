@@ -7,6 +7,33 @@
   pointer-events: none;
 }
 
+ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(49, 110, 138);
+}
+
+li.flexgrow {
+  flex-grow: 1;
+}
+
+li a {
+  display: block;
+  color: rgb(47, 63, 136);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #aaa;
+}
+
+li a:hover {
+  background-color: rgb(68, 132, 143);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
